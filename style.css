@@ -93,6 +93,20 @@ input::placeholder {
     font-weight: 600;
 }
 
+.input-form-error {
+    background-image: url(images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border: 1.5px solid hsl(0, 100%, 74%);
+}
+
+.error-text {
+    color: hsl(0, 100%, 74%);
+    text-align: end;
+    font-style: italic;
+    display: none;
+}
+
 .submit {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;

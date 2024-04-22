@@ -30,11 +30,15 @@
       </div>
 
       <div class="input-form-container">
-        <form action="">
-          <input type="text" id="fName" name="fName" placeholder="First Name"><br>
-          <input type="text" id="lName" name="lName" placeholder="Last Name"><br>
-          <input type="email" id="emailID" name="emailID" placeholder="Email Address"><br>
-          <input type="password" id="password" name="password" placeholder="Password"><br>
+        <form id="userForm" action="">
+          <input type="text" id="fName" name="fName" placeholder="First Name">
+          <div class="error-text"></div><br>
+          <input type="text" id="lName" name="lName" placeholder="Last Name">
+          <div class="error-text"></div><br>
+          <input type="text" id="emailID" name="emailID" placeholder="Email Address">
+          <div class="error-text"></div><br>
+          <input type="password" id="password" name="password" placeholder="Password">
+          <div class="error-text"></div><br>
           <button class="submit">Claim your free trial</button>
         </form>
 
@@ -43,7 +47,7 @@
     </div>
 
   </main>
-
+  <script src="app.js" defer></script>
 </body>
 
 </html>
