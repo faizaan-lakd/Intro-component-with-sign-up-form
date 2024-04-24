@@ -134,6 +134,10 @@ input::placeholder {
     font-weight: 700;
 }
 
+.input-form-container, .info-bar {
+    box-shadow: 0 8px 8px -2px hsl(249, 10%, 26%, 0.4);
+}
+
 @media (max-width: 1025px) {
     main {
         padding-inline: 3.5rem;
