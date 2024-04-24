@@ -133,3 +133,74 @@ input::placeholder {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
 }
+
+@media (max-width: 1025px) {
+    main {
+        padding-inline: 3.5rem;
+    }
+}
+
+@media (max-width: 769px) {
+    main {
+        padding-inline: 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .input-form-container {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 426px) {
+    main {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-inline: 0.75rem;
+        background: url(images/bg-intro-mobile.png);
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .form-container {
+        padding-left: 0;
+    }
+
+    .description {
+        padding-inline: 1rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    input {
+        padding-left: 1rem;
+    }
+
+    .error-text {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 321px) {
+    main {
+        padding-inline: 0.5rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 0.9375rem;
+    }
+
+    .description-2 {
+        font-size: 0.75rem;
+    }
+
+    .input-form-container {
+        padding: 0.75rem;
+    }
+}
